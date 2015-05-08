@@ -1,0 +1,110 @@
+body{
+background:url(http://www.gamersgallery.com/gallery/watermark.php?file=108668&size=1);
+background-size: cover;}
+#head{
+text-align:left;}
+#p{
+text-align:center;
+padding:20px 20px;
+color:darkorange;
+}
+#left{
+margin:20px 20px 20px 20px;
+border:1px solid green;
+text-align:left;
+border-radius:6px;
+}
+#home{
+padding:3px 40px 3px 40px;
+background:orange;
+text-shadow: 2px 2px 3px black, 0 0 1em sandybrown; 
+color: white; 
+ border-radius:15px;
+font-size: 2em}
+#create{
+padding:3px 3px;
+background:orange;
+text-shadow: 2px 2px 3px black, 0 0 1em sandybrown; 
+color: white; 
+ border-radius:15px;
+font-size: 2em}
+#list_article{
+right:50%;
+text-align:center;
+width:50%;
+height:100%;
+position:absolute;
+text-shadow: 2px 2px 3px black, 0 0 1em sandybrown; 
+color: green; 
+font-size: 2em;
+}
+#articles{
+right:50%;
+text-align:left;
+margin:2% -2%;
+width:50%;
+height:100%;
+position:absolute;
+text-shadow: 2px 2px 3px black, 0 0 1em sandybrown; 
+color: green; 
+font-size: 2em;
+}
+#div_right{
+left:50%;
+text-align:center;
+width:50%;
+height:100%;
+position:absolute;
+text-shadow: 2px 2px 3px black, 0 0 1em sandybrown; 
+color: green; 
+font-size: 2em;
+}
+#on_off{
+padding:3px 3px;
+background:limegreen;
+text-shadow: 2px 2px 3px black, 0 0 1em sandybrown; 
+color: white; 
+ border-radius:15px;
+margin-left:600px;
+}
+#list{
+margin:6% 0 0 1%;
+background:palegreen;
+width:500px;
+height:30px;}
+#div_updates{
+margin:5% 0;
+height:50%;
+position:relative;}
+#div_detection{
+margin:5% 0;
+height:50%;
+position:relative;}
+#div_updates{
+margin:5% 0;
+height:50%;
+position:relative;
+}
+#sub{
+padding:0 4px 0 4px;
+margin:0 0 0 60%;
+background:orange;
+text-shadow: 2px 2px 3px black, 0 0 1em sandybrown; 
+color: white; 
+ border-radius:15px;
+font-size: 1em;
+}
+#text{
+width:400px;
+height:25px;
+background:palegreen;}
+#textarea{
+margin:2% 0 0 16%;
+width:400px;
+height:300px;
+background:palegreen;
+z-index:2;
+}
+#textbody{
+position:absolute;
+}
