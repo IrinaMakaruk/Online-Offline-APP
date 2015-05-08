@@ -1,0 +1,12 @@
+CACHE MANIFEST
+#2012-02-21 V1.0.0
+CACHE:
+/index.html
+/index_2.html
+/style.css
+/logo.gif
+/script.js
+NETWORK:
+login.asp
+FALLBACK:
+/html//offline.html
