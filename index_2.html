@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<header  id="head">
+<input type="button" id="home" value="HOME" onClick="location.href='index.html'"/>
+<input type="button" id="create" value="CREATE ARTICLE"/>
+<input type="button" id="on_off" disabled="disabled" value="ONLINE/OFFLINE DETECTOR"/>
+</header>
+<div id="articles">
+CREATE ARTICLE</br></br>
+TITLE: <input type="text" id="text"/></br>
+<div id="textbody">BODY:</div> <textarea id="textarea"></textarea></br>
+<input type="submit" id="sub" value="SEND"/>
+</div>
+<div id="div_right">
+</br>List<input list="list" id="list" > 
+   <datalist id="list">
+    <option>one</option>
+    <option>two</option>
+    <option>three</option>
+    <option>four</option>
+    <option>five</option>
+    <option>six</option>
+   </datalist> 
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
