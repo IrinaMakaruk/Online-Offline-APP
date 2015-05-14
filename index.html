@@ -6,20 +6,16 @@
 </head>
 <body>
 <nav>
-<input type="button" class="home" value="HOME"/>
+<input type="button" class="home" value="HOME" onClick="location.href='index.html'"/>
 <input type="button" class="create" value="CREATE ARTICLE" onClick="location.href='index_2.html'"/>
 <input type="button" class="on_off" disabled="disabled" value="ONLINE" align="right"/>
 </nav>
-<article class="list_article">
-<hgroup>LIST OF ARTICLES</hgroup>
-Title:</br>
-Body:</br>
-<hr></br>
-Title:</br>
-Body:</br>
-<hr></br>
+<article class="add_article">
+<hgroup>CREATE ARTICLE</hgroup>
+TITLE: <input type="text" class="text"/></br>
+<div class="textbody">BODY:</div> <textarea class="textarea"></textarea>
+<input type="submit" class="sub" value="SEND"/>
 </article>
-<script type="text/javascript" src="C:\Users/IRISHKA/Desktop/Project/Script/script.js"></script>
 <div class="right"> 
 <ul>LIST
     <li>1</li>
@@ -29,5 +25,6 @@ Body:</br>
 FOR UPDATES
 DETECTION
 </div>
+<script type="text/javascript" src="C:\Users/IRISHKA/Desktop/Project/Script/script.js"></script>
 </body>
 </html>
